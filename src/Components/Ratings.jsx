@@ -1,0 +1,129 @@
+import React from "react";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+import "../Styles/ratings.css";
+import { FaFacebook } from "react-icons/fa";
+import { IoStar } from "react-icons/io5";
+function Ratings() {
+  const data = [
+    {
+      name: "Lorem Loren",
+      city: "pune",
+      description:"lorem   Lorem ipsum, dolor sit amet consectetur adipisicing elit.,hdjfhhhh dhfkh dkhgln dfjlkdnj dnfkdnf",
+      img: "https://media.istockphoto.com/id/1476170969/photo/portrait-of-young-man-ready-for-job-business-concept.jpg?s=1024x1024&w=is&k=20&c=8mgK2Kq73o8DIjazvLmEGkhx2p_7P5r3mvpbIM6q5cA=",
+    },
+    {
+      name: "Lorem Loren",
+      city: "pune",
+      description:"lorem   Lorem ipsum, dolor sit amet consectetur adipisicing elit.,hdjfhhhh dhfkh dkhgln dfjlkdnj dnfkdnf",
+    
+      img: "https://media.istockphoto.com/id/1476170969/photo/portrait-of-young-man-ready-for-job-business-concept.jpg?s=1024x1024&w=is&k=20&c=8mgK2Kq73o8DIjazvLmEGkhx2p_7P5r3mvpbIM6q5cA=",
+    },
+    {
+      name: "Lorem Loren",
+      city: "pune",
+      description:"lorem   Lorem ipsum, dolor sit amet consectetur adipisicing elit.,hdjfhhhh dhfkh dkhgln dfjlkdnj dnfkdnf",
+    
+      img: "https://media.istockphoto.com/id/1476170969/photo/portrait-of-young-man-ready-for-job-business-concept.jpg?s=1024x1024&w=is&k=20&c=8mgK2Kq73o8DIjazvLmEGkhx2p_7P5r3mvpbIM6q5cA=",
+    },
+  ];
+  var settings = {
+    dots: false,
+    infinite: true,
+    autoplay: true,
+    speed: 500,
+    autoplaySpeed: 2000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          autoplay: true,
+          slidesToScroll: 1,
+          autoplaySpeed: 2000,
+          infinite: true,
+          dots: false,
+        },
+      },
+    ],
+  };
+  return (
+    <>
+     <div className="headingr">
+
+        <h1>What our student says about their yoga teacher training by Soulfit</h1>
+        <img src="./images/lg.png" alt="" />
+     
+     </div>
+      <div className="rating">
+        <div className="reviewslide">
+          <Slider {...settings}>
+            {data.map((d) => (
+              <div className="reviews">
+               <div className="name">
+               <h3>{d.name}</h3>
+               </div>
+               <div className="city">
+                <h4>{d.city}</h4>
+               </div>
+<div className="decrip">
+    
+<p>
+               {d.description}
+                </p>
+</div>
+<div className="image">
+    
+<img src={d.img} alt="imag" />
+</div>
+              </div>
+            ))}
+          </Slider>
+        </div>
+        <div className="ratingslide">
+        {/* <img src="./images/Screenshot (34).png" alt="logo" /> */}
+
+        <div className="ratingbox">
+        <FaFacebook  className="iconn"/>
+          <div className="fac">
+            <h3>lorem</h3>
+            <div className="star">
+            <IoStar /> <IoStar /> <IoStar /> <IoStar />
+            </div>
+          </div>
+        </div>
+         <div className="ratingbox">
+         <FaFacebook  className="iconn"/>
+          <div className="fac">
+            <div className="star">
+            <IoStar /> <IoStar /> <IoStar /> <IoStar />
+            </div>
+          </div>
+        </div>
+        <div className="ratingbox">
+        <FaFacebook />
+          <div className="fac">
+            <div className="star">
+            <IoStar className="str"/> <IoStar /> <IoStar /> <IoStar />
+            </div>
+          </div>
+        </div>
+        <div className="ratingbox">
+        <FaFacebook />
+          <div className="fac">
+            <div className="star">
+            <IoStar /> <IoStar /> <IoStar /> <IoStar />
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </>
+  );
+}
+
+export default Ratings;
