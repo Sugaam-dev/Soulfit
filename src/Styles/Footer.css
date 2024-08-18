@@ -117,6 +117,41 @@ background-color: #000958;
     color: #ff004f;
     font-size: 30px;
 }
+
+
+
+.underline{
+    width: 40%;
+    height: 5px;
+    background: #767676;
+    border-radius: 3px;
+    position: relative;
+    top: 5px;
+    left: 0px;
+    overflow: hidden;
+}
+.underline span{
+width: 15px;
+height: 100%;
+background: #fff; 
+position: absolute;
+top: 0px;
+left: 10px;
+animation: moving 2s linear infinite;
+
+}
+
+@keyframes moving{
+    0%{
+        left: -20px;
+    }
+    100%{
+        left: 100%;
+    }
+}
+
+
+
 @media (max-width: 991px) {
     footer {
         padding: 40px;
