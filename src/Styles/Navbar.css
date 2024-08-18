@@ -4,7 +4,7 @@
 }
 .navbar{
 padding: 10px 10%;
-background-color: #000958;
+background:linear-gradient(to right, #00093c,#2d0b00);
 
 }
 nav{
@@ -50,6 +50,7 @@ nav ul li a:hover::after{
 }
 nav .menue{
     display: none;
+    color: white;
 }
 
 .dem{
