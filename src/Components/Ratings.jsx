@@ -5,6 +5,10 @@ import Slider from "react-slick";
 import "../Styles/ratings.css";
 import { FaFacebook } from "react-icons/fa";
 import { IoStar } from "react-icons/io5";
+import { IoStarHalf } from "react-icons/io5";
+import { FaInstagram } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaYoutube } from "react-icons/fa6";
 function Ratings() {
   const data = [
     {
@@ -90,33 +94,36 @@ function Ratings() {
         <div className="ratingbox">
         <FaFacebook  className="iconn"/>
           <div className="fac">
-            <h3>lorem</h3>
+            <h3>Facebook</h3>
             <div className="star">
-            <IoStar /> <IoStar /> <IoStar /> <IoStar />
+            <IoStar /> <IoStar /> <IoStar /> <IoStar /><IoStarHalf />
             </div>
           </div>
         </div>
          <div className="ratingbox">
-         <FaFacebook  className="iconn"/>
+         <FaInstagram  className="iconn"/>
           <div className="fac">
+          <h3>Instagram</h3>
             <div className="star">
-            <IoStar /> <IoStar /> <IoStar /> <IoStar />
+            <IoStar /> <IoStar /> <IoStar /> <IoStar /><IoStarHalf />
             </div>
           </div>
         </div>
         <div className="ratingbox">
-        <FaFacebook />
+        <FaXTwitter className="iconn"/>
           <div className="fac">
+          <h3>X</h3>
             <div className="star">
-            <IoStar className="str"/> <IoStar /> <IoStar /> <IoStar />
+            <IoStar/> <IoStar /> <IoStar /> <IoStar /><IoStarHalf />
             </div>
           </div>
         </div>
         <div className="ratingbox">
-        <FaFacebook />
+        <FaYoutube className="iconn"/>
           <div className="fac">
+          <h3>YouTube</h3>
             <div className="star">
-            <IoStar /> <IoStar /> <IoStar /> <IoStar />
+            <IoStar /> <IoStar /> <IoStar /> <IoStar /><IoStarHalf />
             </div>
           </div>
         </div>
