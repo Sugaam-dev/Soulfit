@@ -102,12 +102,12 @@ footer .container .contact .info li a {
 }
 
 .copyrighttext {
-background-color: #000958;
+    background:linear-gradient(to right, #00093c,#2d0b00);
     /* background: linear-gradient(to right, #bc005b, #4528a5); */
     padding: 20px 100px 30px;
     text-align: center;
     color: #fff;
-    border: 1px solid rgba(0, 0, 0, 0.15);
+    border: 2px solid rgba(146, 143, 143, 0.268);
 }
 .copyrighttext a{
     text-decoration: none;
