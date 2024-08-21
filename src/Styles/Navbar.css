@@ -34,6 +34,7 @@ nav ul li a{
     color: #17DFB9;
 }
 
+
 nav ul li a::after{
     content: '';
     width: 0%;
@@ -48,6 +49,7 @@ nav ul li a::after{
 nav ul li a:hover::after{
     width: 100%;
 }
+
 nav .menue{
     display: none;
     color: white;

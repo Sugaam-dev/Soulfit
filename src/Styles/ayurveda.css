@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
 }
+
 .ayurveda{
     height: 1200px;
     width: 100%;
@@ -54,13 +55,14 @@ left: 50px;
     font-size: 60px;
 }
 .ayurvedcontent button{
-    padding: 20px 90px;
+    padding: 16px 70px;
     margin-top: 10%;
     border-radius: 20px;
     border:1px solid #E30613;
     border-radius: 25px 10px 25px 10px;
     transition: 0.5s;
     font-size: 18px;
+    cursor: pointer;
 }
 .ayurvedcontent button a{
     text-decoration: none;
@@ -138,6 +140,16 @@ left: 50px;
 }
 
 
+@media only screen and (1439px<= width <=1980px) {
+    .ayurved img{
+        width: 502px;
+      
+    
+    }
+    .ayurvedcontent{
+        margin-top: -50px;
+    }
+}
 @media only screen and (769px<= width <=1439px) {
     .ayurved img{
         width: 382px;

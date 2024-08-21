@@ -2,7 +2,8 @@ import '../Styles/Navbar.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars,faHouse,faXmark} from '@fortawesome/free-solid-svg-icons'
 
-import {Link} from "react-router-dom"
+import {NavLink} from "react-router-dom"
+
 
 const Navbar = () => {
 
@@ -31,10 +32,10 @@ const Navbar = () => {
                 <li><a href="#">About</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Contact</a></li> */}
-                <li><Link to={"/"}>Home</Link></li>
-                <li><Link to={"/about"}>About</Link></li>
-                <li><Link>Services</Link></li>
-                <li><Link to={"/Contact"}>Contact</Link></li>
+                <li><NavLink to={"/"}>Home</NavLink></li>
+                <li><NavLink to={"/about"}>About</NavLink></li>
+                <li><NavLink to={"/services"}>Services</NavLink></li>
+                <li><NavLink to={"/contact"}>Contact</NavLink></li>
          
                 <FontAwesomeIcon icon={faXmark} className='menue'  onClick={closemenu}/>
             </ul>

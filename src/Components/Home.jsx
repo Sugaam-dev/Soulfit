@@ -8,6 +8,7 @@ import Utube from "./Utube";
 import Ratings from "./Ratings";
 import Questions from "./Questions";
 import Accordion from "./Accordion";
+import Ourservice from "./Ourservice";
 const Home = () => {
     return ( 
         <>
@@ -15,7 +16,7 @@ const Home = () => {
         <Yogaschool/>
         <Ayurveda/> 
       <Offering/>
-   
+   <Ourservice/>
       <Carousal/>
       <Utube/>
 

@@ -26,6 +26,7 @@ width: 300px;
 }
 .yogaa .heading{
 text-align: center;
+font-family: Caudex, serif;
 }
 
 .box{
@@ -38,15 +39,17 @@ text-align: center;
 .box1{
     width: 50%;
     height: 700px;
-    border: 1px solid black;
+    border: 2px solid rgba(0, 0, 0, 0.225);
     border-radius: 5px;
+    box-shadow: 1px 2px 30px rgba(128, 128, 128, 0.77);
 }
 .box1 img{
     width: 98%;
-    height: 690px;
+    height: 688px;
     border-radius: 5px;
-    margin-left: 5px;
+    margin-left: 6px;
     margin-top: 5px;
+
 }
 .box2{
     width: 60%;

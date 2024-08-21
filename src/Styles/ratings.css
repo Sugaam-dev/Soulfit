@@ -4,6 +4,8 @@
 .headingr{
  text-align: center;
 width: 98%;
+font-family: Caudex, serif;
+margin-top: 5%; 
 }
 .headingr img{
     width: 300px;
@@ -27,14 +29,17 @@ width: 98%;
 .ratingslide{
     width: 50%;
     display: grid;
-    grid-template-columns: 250px 250px;
+    grid-template-columns: 223px 223px;
     grid-template-rows: 70px 70px;
     grid-gap: 50px 30px;
     margin-left: 10px;
     margin-top: 50px;
 
-
 }
+element.style{
+    display: none;
+}
+
 .ratingslide img{
 width: 600px;
 }
@@ -99,7 +104,7 @@ margin-top: 40px;
 @media (max-width:450px) {
     .rating{
        flex-direction: column;
-       width: 97%;
+       width: 96%;
     }
     .reviewslide{
         width: 95%;

@@ -54,7 +54,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="quicklinks">
-           <h2>Quick Links <div className="underline"><span></span></div></h2>
+            <h2>Quick Links <div className="underline"><span></span></div></h2>
             <ul>
               <li>
                 <Link to={"/"}>Home</Link>
@@ -66,7 +66,7 @@ const Footer = () => {
                 <Link>Services</Link>
               </li>
               <li>
-                <Link>Contact</Link>
+                <Link to='/contact'>Contact</Link>
               </li>
             </ul>
           </div>
@@ -86,7 +86,7 @@ const Footer = () => {
                   <FontAwesomeIcon icon={faEnvelope} />
                 </span>
                 <p>
-                  <a href="mailto:info@vyakuru.com">info@soulfit.com</a>
+                  <a href="mailto:info@soulfit.com">info@soulfit.com</a>
                 </p>
               </li>
               <li>

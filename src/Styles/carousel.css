@@ -13,6 +13,7 @@
 
 .heading{
    text-align: center;
+   font-family: Caudex, serif;
 }
 .heading img{
     width: 300px;
@@ -97,18 +98,31 @@ transform: scale(1.03);
 .but button{
     padding: 10px 100px;
     border:1px solid #E30613;
-    background-color:#17DFB0;
+ 
     transition: 0.5s;
    /* font-size: 20px; */
-   width: 95%;
+   /* width: 95%; */
    margin-top: 10px;
+   font-size: 18px;
+   color: black;
+
+   background: linear-gradient(to top,#29612be8 50%, #fff 50% );
+   background-size: 100% 200%;
+   background-position: top;
+   cursor: pointer;
   
 }
 .but button:hover{
     background-color: transparent;
+    color: #fff;
+    background-position: bottom;
     
 }
-
+.slick-prev:before,
+.slick-next:before {
+  color: #29612B;
+  /* display: none; */
+}
 
 @media (max-width:450px) {
     .im img{

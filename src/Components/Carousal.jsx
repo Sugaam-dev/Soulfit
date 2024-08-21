@@ -3,6 +3,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick';
 import '../Styles/carousel.css'
+import { Link } from 'react-router-dom';
 
 function Carousal() {
 
@@ -111,7 +112,7 @@ function Carousal() {
 </div>
 
 <div className="but">
-<button>cource details</button>
+<Link to='/Contact'><button>cource details</button></Link>
 </div>
             </div>
         ))}

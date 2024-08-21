@@ -3,7 +3,7 @@ footer {
     /* width: 100%; */
     height: auto;
     padding: 50px 100px;
- background:linear-gradient(to right, #00093c,#2d0b00);
+    background:linear-gradient(to right, #00093c,#2d0b00);
     z-index: 80; /* Added z-index to ensure footer is below the navbar */
     /* margin-left: -9%; */
 }
@@ -107,7 +107,7 @@ footer .container .contact .info li a {
     padding: 20px 100px 30px;
     text-align: center;
     color: #fff;
-    border: 2px solid rgba(146, 143, 143, 0.268);
+    border: 1px solid rgba(146, 143, 143, 0.268);
 }
 .copyrighttext a{
     text-decoration: none;
@@ -117,7 +117,6 @@ footer .container .contact .info li a {
     color: #ff004f;
     font-size: 30px;
 }
-
 
 
 .underline{
@@ -149,8 +148,6 @@ animation: moving 2s linear infinite;
         left: 100%;
     }
 }
-
-
 
 @media (max-width: 991px) {
     footer {

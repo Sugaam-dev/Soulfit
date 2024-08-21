@@ -23,9 +23,11 @@
     padding-bottom: 40px;
 }
 
+
 .type span{
     font-size: 40px;
     color: #E30613;
+    font-family: Caudex, serif;
     
 
 }
@@ -37,12 +39,16 @@
     border:1px solid #E30613;
     font-size: 18px;
     transition: 0.5s;
+    background: linear-gradient(to top,#3C6E3D 50%, #fff 50% );
+    background-size: 100% 200%;
+    background-position: top;
+    cursor: pointer;
 }
 .homeContent button:hover {
-   
-    border-radius: 25px   10px  25px 10px ;
-
-   background-color: #17DFB0;
+   color: #fff;
+    /* border-radius: 25px   10px  25px 10px ; */
+background-position: bottom;
+   /* background-color: #17DFB0; */
  
     
 }
@@ -51,13 +57,21 @@
 .homeContent button a{
     text-decoration: none;
     font-size: 18px;
+
 }
 
 .homeContent p{
-    font-size: 16px;
+    font-size: 18px;
     line-height: 25px;
     margin-top: 20px;
 }
+
+@media  ( 374px < width<= 450px) { 
+    .homeContent button{
+       margin-left: 30px;
+    }
+}
+
 
 @media (max-width:450px) {
     .welcome{
@@ -107,4 +121,10 @@
         padding-bottom: 90px;
     }
   
+}
+
+@media (767px < width <=1450px) {
+    .homeImage img{
+        width: 300px;
+    }
 }

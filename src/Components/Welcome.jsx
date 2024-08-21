@@ -1,6 +1,6 @@
 import '../Styles/welcome.css'
 import AutoTyping from './AutoTyping';
-import { Link } from 'react-router-dom';
+import { Link} from 'react-router-dom';
 const welcome = () => {
 
     const texts = [
@@ -10,6 +10,7 @@ const welcome = () => {
       ];
     return (
         <>
+      
         <div className="welcome">
 <div className="homeImage">
 <img src="./images/home-banner.webp" alt="gjgughkjhb" />
@@ -23,7 +24,7 @@ const welcome = () => {
     </div>
        
      
- <p>Samadhi is your home and that is the goal of life. Come learn, celebrate and be enlightened.Welcome to your own home</p>
+ <p>Soulfit is your home and that is the goal of life. Come learn, celebrate and be enlightened.Welcome to your own home</p>
 
 
  <Link to='/about'><button>Know more</button></Link>
