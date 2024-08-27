@@ -13,7 +13,7 @@ const welcome = () => {
       
         <div className="welcome">
 <div className="homeImage">
-{/* <img src="./images/home-banner.webp" alt="gjgughkjhb" /> */}
+<img src="./images/ezgif-4-7828d5231b-removebg-preview.png" alt="gurujiimage" />
 </div>
 <div className="homeContent">
     <h2>
