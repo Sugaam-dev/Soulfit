@@ -2,6 +2,7 @@
     text-align: center;
     width: 95%;
     margin-top: 5%;
+    font-family: Caudex, serif;
 }
 .serviceh img{
     width: 300px;
@@ -15,17 +16,17 @@
 }
 .servicecarou{
     border: 1px solid black;
-    height: 470px;
+    height: 500px;
     
 
 }
 .servicecarou h3{
-    color: #29612B;
+    color: #CF2156;
     font-size: 22px;
 }
 
  .sbut button{
-    padding: 10px 130px;
+    padding: 10px 100px;
    
     margin-top: 10px;
     border:1px solid #E30613;
@@ -46,7 +47,7 @@
 }
 .servicecarou img{
     width: 100%;
-    height: 270px;
+    height: 300px;
    
 }
 
@@ -55,7 +56,7 @@
         width: 70%;
     }
     .servicecarou {
-      height: 500px;
+      height: 550px;
     
     } 
     .servicebox{
@@ -71,7 +72,7 @@ width: 85%;
 }
 @media (450px< width <=768px) {
     .servicecarou{
-        height: 450px;
+        height: 500px;
     }
     .sbut{
         margin-top: 10px;

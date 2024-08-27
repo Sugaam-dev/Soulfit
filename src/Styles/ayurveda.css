@@ -4,18 +4,22 @@
 }
 
 .ayurveda{
-    height: 1200px;
+    /* height: 1200px;
     width: 100%;
     background-color: aliceblue;
-    margin-top: 5%;
+    margin-top: 5%; */
 }
+
+
+
+
 .ayurved{
     background-image: url('../images/AyurvedaBack.jpeg');
     position: relative;
     top: 80px;
 
 /* opacity: .7; */
-background-color: #161F19;
+
 overflow: hidden;
 background-size: cover;
 width:93%;
@@ -23,12 +27,17 @@ height: 85%;
 margin-left: 50px;
 padding-top: 5%;
 border-radius: 30px 180px 30px 30px;
+
+/* margin-right: 3%; */
 display: flex;
 justify-content: space-between;
-/* margin-right: 3%; */
-
 
 }
+
+.ayurvedimg{
+    width: 60%;
+}
+
 .ayurved img{
     width: 600px;
     border-radius: 20px 100px 20px 20px;
@@ -73,11 +82,48 @@ left: 50px;
     border-radius: 10px 25px 10px 25px;
 }
 
+
+
+
+
+
+.cccc{
+    width: 100%;
+ 
+}
+
+
+.cccc .abox img{
+   width: 220px;
+   transition: 0.3s;
+   
+}
+.cccc .abox img:hover{
+ scale: 1.1;
+    
+ }
+.cccc .aybox{
+    width: 80%;
+    margin-left: 4%;
+    margin-bottom: 10%;
+    /* margin-top: 10% */
+
+}
+
+.cccc .aybox .abox{
+    text-align: center;
+    width: 250px;
+   
+}
+.abox h2{
+    color: #fff;
+    margin-left: 20px;
+}
 @media (max-width:450px) {
     .ayurved{
 
     width:93%;
-    height: 110%;
+    height: 1630px;
     margin-left: 10px;
     padding-top: 5%;
     /* border-radius: 30px 180px 30px 30px; */
@@ -137,6 +183,20 @@ left: 50px;
     bottom: 20px;
     
     }
+    .ayurvedimg{
+        width: 100%;
+    }
+
+
+    .cccc .aybox{
+     margin-left: 10%;
+    
+    }
+    .cccc .abox img{
+ left: 20px;
+        
+     }
+  
 }
 
 
@@ -198,4 +258,24 @@ left: 50px;
          margin-left: 5px;
          width: 95%;
      }
+
+     .ayurvedcontent{
+
+     
+        top: 0px;
+     }
+
+     .cccc .aybox{
+        margin-left: 8%;
+        
+       
+       }
+       .cccc{
+        width: 90%;
+        margin-top: 40px;
+       }
+       .cccc .abox img{
+    left: 20px;
+           
+        }
 }

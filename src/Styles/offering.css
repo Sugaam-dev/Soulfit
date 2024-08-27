@@ -3,6 +3,9 @@
     margin: 0px;
     width: 100%;
     height: 100%;
+
+
+    margin-top: 10%;
 }
 .offerheading{
     font-family: Caudex, serif;
@@ -106,11 +109,11 @@ margin-bottom: 50px;
         padding-top: 20px;
       }
       .offerheading h1{
-        width: 90%;
+        width: 100%;
         font-size: 20px;
       }
       .offering{
-        margin-top: 80%;
+        margin-top: 45%;
       }
       .offerheading img{
        width: 70%;
@@ -124,6 +127,10 @@ margin-bottom: 50px;
 }
 
 @media only screen and (451px<= width <=768px) {
+
+    .offering{
+        margin-top: 15%;
+    }
 .offeringcards{
     display: grid;
     grid-template-columns: 600px;

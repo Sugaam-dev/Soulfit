@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import '../Styles/ourservics.css'
 import { Link } from "react-router-dom";
-function Ourservice() {
+function KumbhAcomodation() {
 
 
     var settings = {
@@ -59,33 +59,28 @@ function Ourservice() {
 
     const data = [
         {
-            image:"./images/yogaimage.avif",
-          name: "Teachers Training Programs",
+            image:"./images/diromitory-swiss-tent-head.jpg",
+          name: "Dormitories Tent",
           description:
-            "Welcome to Yogalayaa's Teachers Training Program! Are you passionate about yoga and eager to deepen your practice while gaining the skills and",
+            "Dormitories Tent Booking are the best option to book Budget Camp/accommodations in Kumbh Mela Prayagraj.",
         },
         {
-            image:"./images/yoga-wear.jpg",
-             name: "Merchandise",
-            description:"We offer a range of merchandise to help support our students in their yoga journey. Our merchandise includes yoga mats, blocks, straps, and other props, as well as yoga apparel and accessories like t-shirts, tanks, and bags.",
+            image:"./images/Economy-Tent.avif",
+             name: "Economy Cottage",
+            description:"Economy Tents are the best option to stay individually in Kumbh Mela Prayagraj in your budget and visit 2025 Kumbh Mela",
           },
           {
-            image:"./images/yoga-retreat-environment.jpg",
+            image:"./images/deluxe-for-home-page.avif",
             
-            name: "Our Retreats",
+            name: "Deluxe Cottage",
             description:
-              "Our Spiritual Retreats offer a unique opportunity to step away from the stresses of daily life and connect with your inner self. Led by experienced",
+              "Deluxe Tents offering more amenities as the guest requirement. This tent includes double bed mattress with attached bath",
           },
           {
-            image:"./images/Yoga-Ayurveda-Health-and-Wellness-Banner.jpg",
-            name: "Achieve Health & Wealth with Soulfit",
+            image:"./images/Luxury-Tent.avif",
+            name: "Luxury Cottage",
             description:
-              "We offer personalized Ayurvedic consultations, herbal remedies, detox programs, lifestyle guidance, and workshops to enhance holistic health and wealth.",
-          },
-          {
-image:"./images/yoga-retreat-1024x1024.webp",
-name:"Ayurveda and Yoga Retreat",
-description:"In this retreat, Soulfit will introduce guests to the principles of Ayurveda and how it complements yoga. You will also learn about ayurvedic consultations and enjoy ayurvedic cooking classes and herbal remedies workshops."
+              "Luxury Cottage are one of the finest Luxurious camping in Kumbh Mela 2025. This Cottage includes compete features as the",
           }
       ];
 
@@ -96,7 +91,7 @@ description:"In this retreat, Soulfit will introduce guests to the principles of
   <div className="service">
 
     <div className="serviceh">
-        <h1>Our Services</h1>
+        <h1>Kumbh Mela Accommodation</h1>
         <img src="./images/lg.png" alt="logo" />
     </div>
     <div className="servicebox">
@@ -133,4 +128,4 @@ description:"In this retreat, Soulfit will introduce guests to the principles of
   );
 }
 
-export default Ourservice;
+export default KumbhAcomodation;

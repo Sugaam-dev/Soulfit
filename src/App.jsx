@@ -15,6 +15,9 @@ import Cont from './Components/Cont';
 import Services from './Components/Services';
 import ScrollToTop from './Components/ScrollToTop';
 import ScrollTop from './Components/ScrollTop';
+import Package1 from './Components/Package1';
+import Package2 from './Components/Package2';
+import Kumbh from './Components/Kumbh';
 
 
 function App() {
@@ -28,14 +31,17 @@ function App() {
   
    <BrowserRouter>
   <ScrollToTop/>
-   <Navbar/>
   
+   <Navbar/>
+ 
    <Routes>
 
     <Route path='/' element={<Home/>}/>
     <Route path='/about' element={<About/>}/>
     <Route path='/Contact' element={<Cont/>} />
     <Route path='/services' element={<Services/>}/>
+    <Route path='/package1' element={<Package1/>}/>
+    <Route path='/package2' element={<Package2/>}/>
    </Routes>
    <Whatsapp/>
    <ScrollTop/>

@@ -9,15 +9,26 @@ import Ratings from "./Ratings";
 import Questions from "./Questions";
 import Accordion from "./Accordion";
 import Ourservice from "./Ourservice";
+import Package1 from "./Package1";
+import Package2 from "./Package2";
+import Kumbh from "./Kumbh";
+import KumbhAcomodation from "./kumbhAcomodation";
+import AyurvedCarousel from "./AyurvedCarousel";
+
 const Home = () => {
     return ( 
         <>
         <Welcome/>
+        {/* <Package1/>
+        <Package2/> */}
         <Yogaschool/>
         <Ayurveda/> 
+        {/* <AyurvedCarousel/> */}
       <Offering/>
    <Ourservice/>
+   <Kumbh/>
       <Carousal/>
+      <KumbhAcomodation/>
       <Utube/>
 
 

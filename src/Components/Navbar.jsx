@@ -25,8 +25,8 @@ const Navbar = () => {
      
         <div className="navbar">
             <nav>
-                {/* <img src="https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg?t=st=1723282214~exp=1723285814~hmac=46732f48155268a1017a5726aa90baf70acec70f3ba384cb5a6920b166aba270&w=740" alt="" className="logo" /> */}
-        <span>SOULFIT</span>
+                <img src="./images/Soulfit_logo.png" alt="" className="logo" />
+        {/* <span>SOULFIT</span> */}
             <ul id='sidemenu'>
                 {/* <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>

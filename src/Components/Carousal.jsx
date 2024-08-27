@@ -9,28 +9,31 @@ function Carousal() {
 
     const data=[
 
-{name:"200 Hour Online Yoga Teacher Training course By Soulfit",
-    description:"The 200 hour online yoga teacher Training helps you complete the entire training directly from your home from experienced yoga teachers.",
-    img:"https://templates.kohesifstudio.com/rahayu/wp-content/uploads/sites/28/2024/07/050-mortar.png",
-    style:"Ashtanga, Vinyasa, Hatha, Yin",
-    level:"Beginner to Intermediate",
-    duration:"25 Days "
-  },
-{name:"300-Hour Yoga Teacher Training By Soulfit",
-    description:"Become an advanced yoga teacher with our 300-hour Yoga Teacher Training course. Join the course and get certified by Yoga Alliance USA. ",
-    style:"Ashtanga, Vinyasa, Hatha, Yin",
-    level:"Intermediate to Advanced",
-    duration:"29 Days "
-},{name:"500 Hour Yoga Teacher Training By Soulfit",
-   img:"./images/ayurvedaimage.jpg",
-    description:"The 500-hour Yoga Teacher Training course combines all the modules of both 200 and 300-hour certification courses in one single program.",
+{name:"1 Night 2 Days Kumbh Mela Package",
+    description:"In this bundle of 1 nights and 2 days Kumbh Mela Tour Package in Prayagraj 2025, you'll embark on a journey towards Nirv.",
+    img:"./images/3750.avif",
+    style:"Arrival At Prayagraj",
+    level:"Kumbh Mela Holy Dip & Departure",
+    duration:"",
+    butlink:"/Package1"
+    },
+{name:"2 Night 3 Days Kumbh Mela Package",
+  img:"./images/Kumbh-Mela-Package-from-Delhi.jpg",
+    description:"Come and savor every bit of spirituality at Kumbh Mela with our 2 nights 3 days Kumbh Mela Package. Plan your Kumbh Mela. ",
+    style:"Arrival At Prayagraj",
+    level:"Kumbh Mela Holy Dip & Departure",
+    duration:"Drop At Prayagraj Railway Station/Airport",
+    butlink:"/Package2"
+},{name:"3 Night 4 Days Kumbh Mela Package",
+   img:"./images/Kumbh-Mela-Package-4-Nights-5-Days.jpg",
+    description:"Our holy Kumbh Mela Tour Package for 3 nights and 4 days will lead you to a world that washes away all your sins.",
     style:"Ashtanga, Vinyasa, Hatha, Yin",
     level:"Beginner to advanced",
     duration:"59 Days "
 }
-,{name:"ps",
-   img:"https://livingyogaschool.com/images/300-yoga-ttc-multistyle.jpg",
-    description:"lorem10 hskh jsdhkjn khdkhn, ,hskdns, ,dshkusy mdgjysgd ",
+,{name:"Kumbh Mela Shahi Snan Package",
+   img:"./images/istockphoto-1408894834-612x612.jpg",
+    description:"Immerse yourself in our sacred Shahi Snan Package or Kumbh Mela package for 4 nights and 5 days, where you'll come and s",
     style:"Ashtanga, Vinyasa, Hatha, Yin",
     level:"Beginner to Intermediate",
     duration:"25 Days "
@@ -42,6 +45,10 @@ function Carousal() {
         dots: true,
         infinite: true,
         speed: 500,
+
+        autoplay: true,
+     
+        autoplaySpeed: 1500,
         slidesToShow: 3,
         slidesToScroll: 1,
         initialSlide: 0,
@@ -83,7 +90,7 @@ function Carousal() {
       };
   return (
 <div className="boxx">
- <div className="heading"> <h1>Teachers Training Programs</h1>
+ <div className="heading"> <h1>Kumbh Mela Packages</h1>
  <img src="./images/lg.png" alt="" /></div>
     <div className="boxxx" >
         <Slider className='slid' {...settings}>
@@ -98,21 +105,12 @@ function Carousal() {
 <div className="descr">
 <p>{d.description}</p>
 </div>
-<div className="style">
-  <span>Style</span>
-  <p>{d.style}</p>
-</div>
-<div className="style">
-  <span>Level</span>
-  <p>{d.level}</p>
-</div>
-<div className="style">
-  <span>Duration</span>
-  <p>{d.duration}</p>
-</div>
+
 
 <div className="but">
-<Link to='/Contact'><button>cource details</button></Link>
+<Link to={d.butlink}><button>View Details</button></Link>
+<Link to='/Contact'><button>Book</button></Link>
+
 </div>
             </div>
         ))}

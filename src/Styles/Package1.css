@@ -1,0 +1,100 @@
+.package{
+
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-family: Caudex, serif;
+}
+.headpackage{
+    margin: 30px 0px;
+    color: #CF2156;
+}
+.description p{
+    padding: 10px 50px;
+   
+}
+.description h2{
+    margin-bottom: 10px;
+   
+}
+.iti span{
+    color: crimson;
+    font-size: 22px;
+    font-weight: 700;
+}
+.iti p{
+    padding: 10px 100px;
+}
+.det{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 300px;
+    grid-gap: 20px;
+width: 90%;
+margin-left: 10%;
+}
+.gg{
+    background-color: aqua;
+}
+.gg p{
+    padding: 5px 20px;
+}
+.gg .day{
+display: flex;
+justify-content: space-between;
+padding: 10px 20px;
+align-items: center;
+text-align: center;
+ 
+}
+.day h3{
+    width: 80%;
+}
+
+.gg .headingg{
+ text-align: center;
+}
+@media (max-width:1439px) {
+    .description img{
+   
+        width: 100%;
+          
+      }
+      .iti p{
+        padding: 10px 5px;
+    }
+    .description p{
+        padding: 10px 5px;
+    }
+}
+
+@media (max-width:450px) {
+    .det{
+      
+        grid-template-columns: 100%;
+        grid-template-rows: 300px 300px 300px;
+      
+    width: 100%;
+    margin-left: 0px;
+    }
+}
+@media (450px < width <=978px) {
+    .det{
+      
+        grid-template-columns: 300px 300px;
+        grid-template-rows: 300px;
+      
+    width: 80%;
+    margin-left: 80px;
+    }
+}
+@media (978px < width <=1439px) {
+    .det{
+      
+        grid-template-columns: 300px 300px;
+        grid-template-rows: 300px;
+      
+    width: 80%;
+    margin-left: 20%;
+    }
+}
