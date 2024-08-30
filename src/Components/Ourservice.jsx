@@ -84,7 +84,7 @@ function Ourservice() {
           },
           {
 image:"./images/yoga-retreat-1024x1024.webp",
-name:"Ayurveda and Yoga Retreat",
+name:"Ayurveda and Yoga Retreats",
 description:"In this retreat, Soulfit will introduce guests to the principles of Ayurveda and how it complements yoga. You will also learn about ayurvedic consultations and enjoy ayurvedic cooking classes and herbal remedies workshops."
           },
           {
