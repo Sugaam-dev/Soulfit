@@ -17,7 +17,7 @@ const Ayurveda = () => {
  
     autoplaySpeed: 1500,
     slidesToShow: 2,
-    slidesToScroll: 1,
+    slidesToScroll: -1,
     initialSlide: 0,
     responsive: [
       {

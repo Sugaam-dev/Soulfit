@@ -110,7 +110,7 @@ transform: scale(1.03);
    font-size: 18px;
    color: black;
 
-   background: linear-gradient(to top,#29612be8 50%, #fff 50% );
+   background: linear-gradient(to top, #0a2add,#dd9bdfe1 50%, #fff 50% );
    background-size: 100% 200%;
    background-position: top;
    cursor: pointer;

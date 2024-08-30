@@ -32,7 +32,7 @@
     border:1px solid #E30613;
     font-size: 18px;
     transition: 0.5s;
-    background: linear-gradient(to top,#3C6E3D 50%, #fff 50% );
+    background: linear-gradient(to top, #0a2add,#dd9bdfe1 50%, #fff 50% );
     background-size: 100% 200%;
     background-position: top;
     cursor: pointer;

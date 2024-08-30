@@ -62,7 +62,7 @@ function Ourservice() {
             image:"./images/yogaimage.avif",
           name: "Teachers Training Programs",
           description:
-            "Welcome to Yogalayaa's Teachers Training Program! Are you passionate about yoga and eager to deepen your practice while gaining the skills and",
+            "Welcome to Yogalayaa's Teachers Training Program! Are you passionate about yoga and eager to deepen your practice while gaining the skills.",
         },
         {
             image:"./images/yoga-wear.jpg",
@@ -74,7 +74,7 @@ function Ourservice() {
             
             name: "Our Retreats",
             description:
-              "Our Spiritual Retreats offer a unique opportunity to step away from the stresses of daily life and connect with your inner self. Led by experienced",
+              "Our Spiritual Retreats offer a unique opportunity to step away from the stresses of daily life and connect with your inner self.",
           },
           {
             image:"./images/Yoga-Ayurveda-Health-and-Wellness-Banner.jpg",
@@ -86,6 +86,11 @@ function Ourservice() {
 image:"./images/yoga-retreat-1024x1024.webp",
 name:"Ayurveda and Yoga Retreat",
 description:"In this retreat, Soulfit will introduce guests to the principles of Ayurveda and how it complements yoga. You will also learn about ayurvedic consultations and enjoy ayurvedic cooking classes and herbal remedies workshops."
+          },
+          {
+            image:"./images/naturopathy.jpg",
+name:"Naturopathy",
+            description:"Discover holistic healing with naturopathy—personalized care blending nature’s wisdom and modern science to restore your body’s balance and vitality."
           }
       ];
 

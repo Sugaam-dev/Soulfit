@@ -18,6 +18,8 @@ import ScrollTop from './Components/ScrollTop';
 import Package1 from './Components/Package1';
 import Package2 from './Components/Package2';
 import Kumbh from './Components/Kumbh';
+import Package3 from './Components/Package3';
+import Package4 from './Components/Package4';
 
 
 function App() {
@@ -42,6 +44,8 @@ function App() {
     <Route path='/services' element={<Services/>}/>
     <Route path='/package1' element={<Package1/>}/>
     <Route path='/package2' element={<Package2/>}/>
+    <Route path='/package3' element={<Package3/>}/>
+    <Route path='/package4' element={<Package4/>}/>
    </Routes>
    <Whatsapp/>
    <ScrollTop/>

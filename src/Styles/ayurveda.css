@@ -56,6 +56,8 @@ left: 50px;
 .ayurvedcontent p{
    margin-left: 10%;
     font-size: 20px;
+    font-family: 'Roboto';
+    color: #fff;
 }
 .ayurvedcontent span{
     font-size: 40px;
@@ -118,6 +120,7 @@ left: 50px;
 .abox h2{
     color: #fff;
     margin-left: 20px;
+    font-style: 'Roboto';
 }
 @media (max-width:450px) {
     .ayurved{

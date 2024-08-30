@@ -91,7 +91,7 @@ function KumbhAcomodation() {
   <div className="service">
 
     <div className="serviceh">
-        <h1>Kumbh Mela Accommodation</h1>
+        <h1>Accommodation</h1>
         <img src="./images/lg.png" alt="logo" />
     </div>
     <div className="servicebox">

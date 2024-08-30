@@ -39,10 +39,13 @@
     border:1px solid #E30613;
     font-size: 18px;
     transition: 0.5s;
-    background: linear-gradient(to top,#3C6E3D 50%, #fff 50% );
+    background: linear-gradient(to top, #0a2add,#dd9bdfe1 50%, #fff 50% );
     background-size: 100% 200%;
     background-position: top;
     cursor: pointer;
+    font-family: 'Roboto';
+
+    /* background:linear-gradient(to right, #00093c,#2d0b00); */
 }
 .homeContent button:hover {
    color: #fff;
@@ -64,6 +67,7 @@ background-position: bottom;
     font-size: 18px;
     line-height: 25px;
     margin-top: 20px;
+    font-family: 'Roboto';
 }
 
 @media  ( 374px < width<= 450px) { 

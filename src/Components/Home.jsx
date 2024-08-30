@@ -14,6 +14,7 @@ import Package2 from "./Package2";
 import Kumbh from "./Kumbh";
 import KumbhAcomodation from "./kumbhAcomodation";
 import AyurvedCarousel from "./AyurvedCarousel";
+import Bath from "./Bath";
 
 const Home = () => {
     return ( 
@@ -27,6 +28,7 @@ const Home = () => {
       <Offering/>
    <Ourservice/>
    <Kumbh/>
+   <Bath/>
       <Carousal/>
       <KumbhAcomodation/>
       <Utube/>

@@ -24,19 +24,22 @@ function Carousal() {
     level:"Kumbh Mela Holy Dip & Departure",
     duration:"Drop At Prayagraj Railway Station/Airport",
     butlink:"/Package2"
-},{name:"3 Night 4 Days Kumbh Mela Package",
-   img:"./images/Kumbh-Mela-Package-4-Nights-5-Days.jpg",
-    description:"Our holy Kumbh Mela Tour Package for 3 nights and 4 days will lead you to a world that washes away all your sins.",
-    style:"Ashtanga, Vinyasa, Hatha, Yin",
-    level:"Beginner to advanced",
-    duration:"59 Days "
-}
+},
+{name:"3 Night 4 Days Kumbh Mela Package",
+  description:"Our holy Kumbh Mela Tour Package for 3 nights and 4 days will lead you to a world that washes away all your sins.",
+  img:"https://nextjs.thekumbhyatra.com/wp-content/uploads/2020/02/Kumbh-Mela-Tour.jpg",
+  style:"Arrival At Prayagraj",
+  level:"Kumbh Mela Holy Dip & Departure",
+  duration:"",
+  butlink:"/Package3"
+  }
 ,{name:"Kumbh Mela Shahi Snan Package",
    img:"./images/istockphoto-1408894834-612x612.jpg",
     description:"Immerse yourself in our sacred Shahi Snan Package or Kumbh Mela package for 4 nights and 5 days, where you'll come and s",
     style:"Ashtanga, Vinyasa, Hatha, Yin",
     level:"Beginner to Intermediate",
-    duration:"25 Days "
+    duration:"25 Days ",
+    butlink:"/Package4"
 }
 
     ]

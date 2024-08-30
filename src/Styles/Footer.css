@@ -3,7 +3,8 @@ footer {
     /* width: 100%; */
     height: auto;
     padding: 50px 100px;
-    background:linear-gradient(to right, #00093c,#2d0b00);
+    /* background:linear-gradient(to right, #00093c,#2d0b00); */
+    background:linear-gradient(to right,#04188c,#68376a);
     z-index: 80; /* Added z-index to ensure footer is below the navbar */
     /* margin-left: -9%; */
 }
@@ -102,7 +103,8 @@ footer .container .contact .info li a {
 }
 
 .copyrighttext {
-    background:linear-gradient(to right, #00093c,#2d0b00);
+    /* background:linear-gradient(to right, #00093c,#2d0b00); */
+    background:linear-gradient(to right,#04188c,#68376a);
     /* background: linear-gradient(to right, #bc005b, #4528a5); */
     padding: 20px 100px 30px;
     text-align: center;
