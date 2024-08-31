@@ -48,12 +48,12 @@ function Offering ()  {
 </div>
 <div className="card1" data-aos="fade-up">
     <div className="cardimg">
-    <img src="./images/images-3DAYAFT.jpg" alt="" />
+    <img src="https://media.mahakumbh.in/media/2024/01/17162330/Special-Events-and-Ceremonies-at-Kumbh-Mela.webp" alt="" />
               
     </div>
     <div className="cardcontent">
     <img src="./images/036-yoga.png" alt="" />
-                    <h1>Yoga and meditation </h1>
+                    <h1>Kumbh Mela </h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec</p>
                     <Link to='/contact'> <button>Discover more</button></Link>
     </div>
